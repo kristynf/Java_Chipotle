@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db1cfefb-cbe4-432c-8dca-6a2573a33c87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chipotle/Chipotle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chipotle/Chipotle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chipotle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chipotle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,6 +26,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RunDashboard">
