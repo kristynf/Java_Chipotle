@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db1cfefb-cbe4-432c-8dca-6a2573a33c87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chipotle/Chipotle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chipotle/Chipotle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chipotle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chipotle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580478683374</updated>
-      <workItem from="1580478687985" duration="8650000" />
+      <workItem from="1580478687985" duration="12693000" />
     </task>
     <servers />
   </component>
