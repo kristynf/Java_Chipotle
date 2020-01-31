@@ -76,12 +76,10 @@ public class Chipotle {
             String rice_add = rice[randomNumber];
 
 
-        }
-
     }
+            public static String rice_add(){
+                rice_add = rice[randomNumber];
 
-    public static String rice_add() {
-        String rice_add = rice[randomNumber];
     }
 
 
