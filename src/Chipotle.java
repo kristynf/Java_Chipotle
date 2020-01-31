@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Random;
 
 public class Chipotle {
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
 
         String[] rice = new String[3];
         rice[0] = "white";
@@ -44,92 +45,73 @@ public class Chipotle {
         cream[0] = "yes";
         cream[1] = "no";
 
-    /*String[] burrito1 = new String[9];
-    String[] burrito2 = new String[9];
-    String[] burrito3 = new String[9];
-    /*ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();
-    ArrayList<String> burrito1 = new ArrayList<>();*/
-        String[][] burritos = new String[25][25];
+
+        String[][] burritos = new String[25][9];
         for (int i = 0; i < burritos.length; i++) {
-            Random r = new Random();
-            int randomNumber = r.nextInt(rice.length);
-            String rice_add = rice[randomNumber];
+            rice_add(burritos[i]);
 
 
-    }
-            public static String rice_add(){
-                rice_add = rice[randomNumber];
+        }
 
-    }
-
-
-}
 
 //burrito 1
 //rice
-        /*for(int i=0; i<rice.length; i++){
+        public static String rice_add{
             Random r = new Random();
             int randomNumber = r.nextInt(rice.length);
-            String rice_add = rice[randomNumber];
+             rice_add = rice[randomNumber];
         }
 
         //meat
-        for(int j=0; j<meat.length; j++){
-        Random s=new Random();
-        int randomNumber1=s.nextInt(meat.length);
-        System.out.print(meat[randomNumber1]);}
+        public static String meat_add {
+            Random s = new Random();
+            int randomNumber1 = s.nextInt(meat.length);
+             meat_add = meat[randomNumber1]};
+        }
         //beans
-        for(int k=0; k<rice.length; k++){
-        Random t=new Random();
-        int randomNumber2=t.nextInt(beans.length);
-        System.out.print(beans[randomNumber2]);}
+        public static String beans_add(String[]burrito){
+            Random t = new Random();
+            int randomNumber2 = t.nextInt(beans.length);
+            String beans_add = beans[randomNumber2];
+        }
         //salsa
-        for(int l=0; l<rice.length; l++)
-        Random u=new Random();
-        int randomNumber3=u.nextInt(salsa.length);
-        System.out.print(salsa[randomNumber3]);
+        public static String salsa_add(String[]burrito){
+            Random u = new Random();
+            int randomNumber3 = u.nextInt(salsa.length);
+            String salsa_add = salsa[randomNumber3];
+        }
         //cheese
-        for(int i=0; i<rice.length; i++)
-        Random v=new Random();
-        int randomNumber4=v.nextInt(cheese.length);
-        System.out.print(cheese[randomNumber3]);
-        //guac
-        for(int i=0; i<rice.length; i++)
-        Random w=new Random();
-        int randomNumber5=w.nextInt(guac.length);
-        System.out.print(guac[randomNumber5]);
-        for(int i=0; i<rice.length; i++)
-        //queso
-            for(int i=0; i<rice.length; i++)
-        Random x=new Random();
-        int randomNumber6=x.nextInt(queso.length);
-        System.out.print(queso[randomNumber6]);
-        //cream cheese
-        for(int i=0; i<rice.length; i++)
-        Random y=new Random();
-        int randomNumber7=y.nextInt(cheese.length);
-        System.out.print(cheese[randomNumber7]);*?
 
+        public static String cheese_add(String[]burrito){
+            Random v = new Random();
+            int randomNumber4 = v.nextInt(cheese.length);
+            String cheese_add = cheese[randomNumber4];
+        }
+        //guac
+
+        public static String guac_add(String[]burrito){
+            Random w = new Random();
+            int randomNumber5 = w.nextInt(guac.length);
+            String guac_add = guac[randomNumber5];
+        }
+
+        //queso
+        public static String queso_add(String[]burrito){
+            Random x = new Random();
+            int randomNumber6 = x.nextInt(queso.length);
+            String queso_add = queso[randomNumber6];
+        }
+
+        //cream cheese
+        public static String cream_add(String[]burrito){
+            Random y = new Random();
+            int randomNumber7 = y.nextInt(cheese.length);
+            String cream_add = cheese[randomNumber7];
+        }
+
+
+    }
+}
 
 
 
