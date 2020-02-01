@@ -28,6 +28,8 @@ public class Chipotle {
     Integer[] cost = new Integer[9];
 
     public static void main(String[] args) {
+
+
         //rice
         rice[0] = "white";
         rice[1] = "brown";
@@ -62,30 +64,36 @@ public class Chipotle {
         cream[0] = "sour cream";
         cream[1] = "no sour cream";
 
-
-        String[][] burritos = new String[25][9];
-        for (int i = 0; i < burritos.length; ++i) {
-            rice_add(burritos[i]);
-            meat_add(burritos[i]);
-            beans_add(burritos[i]);
-            salsa_add(burritos[i]);
-            cheese_add(burritos[i]);
-            guac_add(burritos[i]);
-            queso_add(burritos[i]);
-            cream_add(burritos[i]);
-
-            System.out.println(burritos);
-
-
-        }
     }
+
+    String[][] burritos = new String[25][9];
+            for (int i = 0; i < burritos.length; ++i
+
+    {
+        rice_add(burritos[i]);
+        meat_add(burritos[i]);
+        beans_add(burritos[i]);
+        salsa_add(burritos[i]);
+        cheese_add(burritos[i]);
+        guac_add(burritos[i]);
+        queso_add(burritos[i]);
+        cream_add(burritos[i]);
+
+    }
+    for (int i = 0; i < 2; i++)
+
+    {
+        for (int j = 0; j < 2; j++) {
+            System.out.print(burritos[i][j] + " ");
+        }
+
+    }
+
 
     //rice
     public static void rice_add(String[] burrito) {
 
         Random r = new Random();
-
-
         int randomNumber = r.nextInt(rice.length);
         String rice_add = rice[randomNumber];
     }
@@ -134,7 +142,7 @@ public class Chipotle {
     }
 
     //cream cheese
-    public static void  cream_add(String[] burrito) {
+    public static void cream_add(String[] burrito) {
         Random y = new Random();
         int randomNumber7 = y.nextInt(cheese.length);
         String cream_add = cheese[randomNumber7];
@@ -142,3 +150,4 @@ public class Chipotle {
 
 
 }
+
