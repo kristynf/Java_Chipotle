@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Chipotle {
-    public  static String[] rice = new String[3];
+    public static String[] rice = new String[3];
 
 
     public static String[] meat = new String[7];
@@ -63,17 +63,16 @@ public class Chipotle {
         cream[1] = "no sour cream";
 
 
-
-        String[][] burritos = new String[25][10];
-        for (int i = 0; i < burritos.length; i++) {
-            rice_add(burritos[])
-            meat_add(burritos[])
-            beans_add(burritos[])
-            salsa_add(burritos[])
-            cheese_add(burritos[])
-            guac_add(burritos[])
-            queso_add(burritos[])
-            cream_add(burritos[])
+        String[][] burritos = new String[25][9];
+        for (int i = 0; i < burritos.length; ++i) {
+            rice_add(burritos[]);
+            meat_add(burritos[]);
+            beans_add(burritos[]);
+            salsa_add(burritos[]);
+            cheese_add(burritos[]);
+            guac_add(burritos[]);
+            queso_add(burritos[]);
+            cream_add(burritos[]);
 
             System.out.println(burritos);
 
@@ -81,63 +80,65 @@ public class Chipotle {
         }
     }
 
-        //rice
-        public static String rice_add ()
-        {
-            Random r = new Random();
-            int randomNumber = r.nextInt(rice.length);
-                rice_add = rice[randomNumber]
-        }
+    //rice
+    public static void rice_add() {
+
+        Random r = new Random();
 
 
-        //meat
-        public static String meat_add () {
-            Random s = new Random();
-            int randomNumber1 = s.nextInt(meat.length);
-            meat_add = meat[randomNumber1]
-        }
+        int randomNumber = r.nextInt(rice.length);
+        String rice_add = rice[randomNumber];
+    }
 
-        //beans
-        public static String beans_add ()
-        {
-            Random t = new Random();
-            int randomNumber2 = t.nextInt(beans.length);
-            beans_add = beans[randomNumber2];
-        }
 
-        //salsa
-        public static String salsa_add () {
-            Random u = new Random();
-            int randomNumber3 = u.nextInt(salsa.length);
-            salsa_add = salsa[randomNumber3];
-        }
-        //cheese
+    //meat
+    public static void meat_add() {
+        Random s = new Random();
+        int randomNumber1 = s.nextInt(meat.length);
+        String meat_add = meat[randomNumber1];
+    }
 
-        public static String cheese_add () {
-            Random v = new Random();
-            int randomNumber4 = v.nextInt(cheese.length);
-            cheese_add = cheese[randomNumber4];
-        }
-        //guac
+    //beans
+    public static void beans_add() {
+        Random t = new Random();
+        int randomNumber2 = t.nextInt(beans.length);
+        String beans_add = beans[randomNumber2];
+    }
 
-        public static String guac_add () {
-            Random w = new Random();
-            int randomNumber5 = w.nextInt(guac.length);
-            guac_add = guac[randomNumber5];
-        }
+    //salsa
+    public static void salsa_add() {
+        Random u = new Random();
+        int randomNumber3 = u.nextInt(salsa.length);
+        String salsa_add = salsa[randomNumber3];
+    }
+    //cheese
 
-        //queso
-        public static String queso_add () {
-            Random x = new Random();
-            int randomNumber6 = x.nextInt(queso.length);
-            queso_add = queso[randomNumber6];
-        }
+    public static void cheese_add() {
+        Random v = new Random();
+        int randomNumber4 = v.nextInt(cheese.length);
+        String cheese_add = cheese[randomNumber4];
+    }
+    //guac
 
-        //cream cheese
-        public static String cream_add () {
-            Random y = new Random();
-            int randomNumber7 = y.nextInt(cheese.length);
-            cream_add = cheese[randomNumber7];
-        }
+    public static void guac_add() {
+        Random w = new Random();
+        int randomNumber5 = w.nextInt(guac.length);
+        String guac_add = guac[randomNumber5];
+    }
+
+    //queso
+    public static void queso_add() {
+        Random x = new Random();
+        int randomNumber6 = x.nextInt(queso.length);
+        String queso_add = queso[randomNumber6];
+    }
+
+    //cream cheese
+    public static void  cream_add() {
+        Random y = new Random();
+        int randomNumber7 = y.nextInt(cheese.length);
+        String cream_add = cheese[randomNumber7];
+    }
+
 
 }
