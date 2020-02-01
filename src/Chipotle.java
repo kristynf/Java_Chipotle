@@ -27,20 +27,20 @@ public class Chipotle {
         salsa[3] = "none";
 
     String[] cheese = new String[2];
-        cheese[0] = "yes";
-        cheese[1] = "no";
+        cheese[0] = "cheese";
+        cheese[1] = "no cheese";
 
     String[] guac = new String[2];
-        guac[0] = "yes";
-        guac[1] = "no";
+        guac[0] = "guac";
+        guac[1] = "no guac";
 
     String[] queso = new String[2];
-        queso[0] = "yes";
-        queso[1] = "no";
+        queso[0] = "queso";
+        queso[1] = "no queso";
 
     String[] cream = new String[2];
-        cream[0] = "yes";
-        cream[1] = "no";
+        cream[0] = "sour cream";
+        cream[1] = "no sour cream";
 
     Integer[] cost = new Integer[9];
 
