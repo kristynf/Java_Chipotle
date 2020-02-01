@@ -1,12 +1,38 @@
 import java.util.Random;
 
 public class Chipotle {
-    String[] rice = new String[3];
+    public  static String[] rice = new String[3];
+
+
+    public static String[] meat = new String[7];
+
+
+    public static String[] beans = new String[3];
+
+
+    public static String[] salsa = new String[4];
+
+
+    public static String[] cheese = new String[2];
+
+
+    public static String[] guac = new String[2];
+
+
+    public static String[] queso = new String[2];
+
+
+    public static String[] cream = new String[2];
+
+
+    Integer[] cost = new Integer[9];
+
+    public static void main(String[] args) {
+        //rice
         rice[0] = "white";
         rice[1] = "brown";
         rice[2] = "none";
-
-    String[] meat = new String[7];
+        //meat
         meat[0] = "chicken";
         meat[1] = "steak";
         meat[2] = "carnidas";
@@ -14,49 +40,40 @@ public class Chipotle {
         meat[4] = "sofritas";
         meat[5] = "tofurkey";
         meat[6] = "none";
-
-    String[] beans = new String[3];
+        //beans
         beans[0] = "pinto";
         beans[1] = "black";
         beans[2] = "none";
-
-    String[] salsa = new String[4];
+        //salsa
         salsa[0] = "mild";
         salsa[1] = "medium";
         salsa[2] = "hot";
         salsa[3] = "none";
-
-    String[] cheese = new String[2];
+        //cheese
         cheese[0] = "cheese";
         cheese[1] = "no cheese";
-
-    String[] guac = new String[2];
+        //guac
         guac[0] = "guac";
         guac[1] = "no guac";
-
-    String[] queso = new String[2];
+        //queso
         queso[0] = "queso";
         queso[1] = "no queso";
-
-    String[] cream = new String[2];
+        //sour cream
         cream[0] = "sour cream";
         cream[1] = "no sour cream";
 
-    Integer[] cost = new Integer[9];
-
-    public static void main(String[] args) {
 
 
         String[][] burritos = new String[25][10];
         for (int i = 0; i < burritos.length; i++) {
-            rice_add(burritos[i]);
-            meat_add(burritos[i]);
-            beans_add(burritos[i]);
-            salsa_add(burritos[i]);
-            cheese_add(burritos[i]);
-            guac_add(burritos[i]);
-            queso_add(burritos[i]);
-            cream_add(burritos[i]);
+            rice_add(burritos[])
+            meat_add(burritos[])
+            beans_add(burritos[])
+            salsa_add(burritos[])
+            cheese_add(burritos[])
+            guac_add(burritos[])
+            queso_add(burritos[])
+            cream_add(burritos[])
 
             System.out.println(burritos);
 
