@@ -65,14 +65,14 @@ public class Chipotle {
 
         String[][] burritos = new String[25][9];
         for (int i = 0; i < burritos.length; ++i) {
-            rice_add(burritos[]);
-            meat_add(burritos[]);
-            beans_add(burritos[]);
-            salsa_add(burritos[]);
-            cheese_add(burritos[]);
-            guac_add(burritos[]);
-            queso_add(burritos[]);
-            cream_add(burritos[]);
+            rice_add(burritos[i]);
+            meat_add(burritos[i]);
+            beans_add(burritos[i]);
+            salsa_add(burritos[i]);
+            cheese_add(burritos[i]);
+            guac_add(burritos[i]);
+            queso_add(burritos[i]);
+            cream_add(burritos[i]);
 
             System.out.println(burritos);
 
@@ -81,7 +81,7 @@ public class Chipotle {
     }
 
     //rice
-    public static void rice_add() {
+    public static void rice_add(String[] burrito) {
 
         Random r = new Random();
 
@@ -92,49 +92,49 @@ public class Chipotle {
 
 
     //meat
-    public static void meat_add() {
+    public static void meat_add(String[] burrito) {
         Random s = new Random();
         int randomNumber1 = s.nextInt(meat.length);
         String meat_add = meat[randomNumber1];
     }
 
     //beans
-    public static void beans_add() {
+    public static void beans_add(String[] burrito) {
         Random t = new Random();
         int randomNumber2 = t.nextInt(beans.length);
         String beans_add = beans[randomNumber2];
     }
 
     //salsa
-    public static void salsa_add() {
+    public static void salsa_add(String[] burrito) {
         Random u = new Random();
         int randomNumber3 = u.nextInt(salsa.length);
         String salsa_add = salsa[randomNumber3];
     }
     //cheese
 
-    public static void cheese_add() {
+    public static void cheese_add(String[] burrito) {
         Random v = new Random();
         int randomNumber4 = v.nextInt(cheese.length);
         String cheese_add = cheese[randomNumber4];
     }
     //guac
 
-    public static void guac_add() {
+    public static void guac_add(String[] burrito) {
         Random w = new Random();
         int randomNumber5 = w.nextInt(guac.length);
         String guac_add = guac[randomNumber5];
     }
 
     //queso
-    public static void queso_add() {
+    public static void queso_add(String[] burrito) {
         Random x = new Random();
         int randomNumber6 = x.nextInt(queso.length);
         String queso_add = queso[randomNumber6];
     }
 
     //cream cheese
-    public static void  cream_add() {
+    public static void  cream_add(String[] burrito) {
         Random y = new Random();
         int randomNumber7 = y.nextInt(cheese.length);
         String cream_add = cheese[randomNumber7];
