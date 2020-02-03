@@ -64,30 +64,38 @@ public class Chipotle {
         cream[0] = "sour cream";
         cream[1] = "no sour cream";
 
-    }
 
-    String[][] burritos = new String[25][9];
-            for (int i = 0; i < burritos.length; ++i
 
-    {
-        rice_add(burritos[i]);
-        meat_add(burritos[i]);
-        beans_add(burritos[i]);
-        salsa_add(burritos[i]);
-        cheese_add(burritos[i]);
-        guac_add(burritos[i]);
-        queso_add(burritos[i]);
-        cream_add(burritos[i]);
+        String[][] burritos = new String[25][9];
 
-    }
-    for (int i = 0; i < 2; i++)
+        for(int i = 0; i < burritos.length; i++)
+        {
+            rice_add(burritos[i]);
+            meat_add(burritos[i]);
+            beans_add(burritos[i]);
+            salsa_add(burritos[i]);
+            cheese_add(burritos[i]);
+            guac_add(burritos[i]);
+            queso_add(burritos[i]);
+            cream_add(burritos[i]);
 
-    {
-        for (int j = 0; j < 2; j++) {
-            System.out.print(burritos[i][j] + " ");
+
+
         }
 
+        for(int i = 0; i < 2; i++)
+
+        {
+            for (int j = 0; j < 2; j++) {
+                System.out.print(burritos[i][j] + " ");
+            }
+
+        }
+
+
     }
+
+
 
 
     //rice
@@ -96,6 +104,7 @@ public class Chipotle {
         Random r = new Random();
         int randomNumber = r.nextInt(rice.length);
         String rice_add = rice[randomNumber];
+        System.out.println(rice_add);
     }
 
 
@@ -104,6 +113,7 @@ public class Chipotle {
         Random s = new Random();
         int randomNumber1 = s.nextInt(meat.length);
         String meat_add = meat[randomNumber1];
+        System.out.println(meat_add);
     }
 
     //beans
